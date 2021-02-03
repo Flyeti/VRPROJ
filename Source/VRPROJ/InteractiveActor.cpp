@@ -1,7 +1,11 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
 #include "InteractiveActor.h"
+
+#define TEST_BIT(Bitmask, Bit) (((Bitmask) & (1 << static_cast<uint8>(Bit))) > 0)
+#define SET_BIT(Bitmask, Bit) (Bitmask |= 1 << static_cast<uint8>(Bit))
+#define CLEAR_BIT(Bitmask, Bit) (Bitmask &= ~(1 << static_cast<uint8>(Bit)))
+
 
 // Sets default values
 AInteractiveActor::AInteractiveActor()
@@ -16,40 +20,29 @@ AInteractiveActor::AInteractiveActor()
 void AInteractiveActor::BeginPlay()
 {
 	Super::BeginPlay();
+
+	FVector Color(0.f, 0.f, 0.f);
+	if (TEST_BIT(ColorBits, EColor::Red))
+		Color.X = RedIntense;
+	if (TEST_BIT(ColorBits, EColor::Green))
+		Color.Y = GreenIntense;
+	if (TEST_BIT(ColorBits, EColor::Blue))
+		Color.Z = BlueIntense;
 	
+	ColorActor = Color;
+	StaticMeshComponent->SetVectorParameterValueOnMaterials(FName("Color"), ColorActor);
+
 }
 
 // Called every frame
 void AInteractiveActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	StaticMeshComponent->AddRelativeRotation(FRotator(0.f, 0.f, 1.f));
+	//StaticMeshComponent->AddRelativeRotation(FRotator(0.f, 0.f, 1.f));
+
 	
-	FVector Color(0.f, 0.f, 0.f);
+	
 
-	if ((ColorBits & (uint8)EColor::Red) ) {
-		Color.X = 1.f;
-	}
-	if ((ColorBits & (uint8)EColor::Green) ) {
-		Color.Y = 1.f;
-	}
-	if ((ColorBits & (uint8)EColor::Blue) ) {
-		Color.Z = 1.f;
-	}
-		
-	/*FVector Color(0.f, 0.f, 0.f);
-	switch (CurrentColor) {
-	case EColor::Red:
-		Color.X = 1.f;
-		break;
-	case EColor::Green:
-		Color.Y = 1.f;
-		break;
-	case EColor::Blue:
-		Color.Z = 1.f;
-		break;
-	}*/
-
-	StaticMeshComponent->SetVectorParameterValueOnMaterials(FName("Color"), Color);
+	
 }
 
