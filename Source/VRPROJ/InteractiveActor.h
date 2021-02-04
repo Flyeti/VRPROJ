@@ -26,7 +26,7 @@ public:
 	AInteractiveActor();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	UStaticMeshComponent* StaticMeshComponent;
+	UStaticMeshComponent* Mesh;
 
 	UPROPERTY(EditAnywhere, Meta = (BitMask, BitmaskEnum = "EColor"))
 	uint8 ColorBits;

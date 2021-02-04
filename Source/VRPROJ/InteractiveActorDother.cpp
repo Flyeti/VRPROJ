@@ -17,17 +17,17 @@ AInteractiveActorDother::AInteractiveActorDother()
 void AInteractiveActorDother::BeginPlay()
 {
 	Super::BeginPlay();
-	StaticMeshComponent->SetSimulatePhysics(true);
-	StaticMeshComponent->SetMassOverrideInKg(NAME_None, 10.f);
-	StaticMeshComponent->SetLinearDamping(10.f);
-	StaticMeshComponent->SetAngularDamping(0.f);
+	Mesh->SetSimulatePhysics(true);
+	Mesh->SetMassOverrideInKg(NAME_None, 10.f);
+	Mesh->SetLinearDamping(10.f);
+	Mesh->SetAngularDamping(0.f);
 }
 
 
 
 void AInteractiveActorDother::Click_Implementation()
 {
-	StaticMeshComponent->SetVectorParameterValueOnMaterials(FName("Color"), FVector(float(rand()+ 0.1) / float((RAND_MAX)), float(rand() + 0.5) / float((RAND_MAX)), float(rand() + 0.3) / float((RAND_MAX))));
+	Mesh->SetVectorParameterValueOnMaterials(FName("Color"), FVector(float(rand()+ 0.1) / float((RAND_MAX)), float(rand() + 0.5) / float((RAND_MAX)), float(rand() + 0.3) / float((RAND_MAX))));
 
 }
 

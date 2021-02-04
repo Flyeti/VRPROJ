@@ -13,7 +13,7 @@ AInteractiveActor::AInteractiveActor()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	StaticMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMeshComponent"));
+	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMeshComponent"));
 }
 
 // Called when the game starts or when spawned
@@ -30,7 +30,7 @@ void AInteractiveActor::BeginPlay()
 		Color.Z = BlueIntense;
 	
 	ColorActor = Color;
-	StaticMeshComponent->SetVectorParameterValueOnMaterials(FName("Color"), ColorActor);
+	Mesh->SetVectorParameterValueOnMaterials(FName("Color"), ColorActor);
 
 }
 

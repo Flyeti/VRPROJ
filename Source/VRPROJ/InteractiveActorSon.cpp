@@ -16,17 +16,17 @@ AInteractiveActorSon::AInteractiveActorSon()
 void AInteractiveActorSon::BeginPlay()
 {
 	Super::BeginPlay();
-	StaticMeshComponent->SetSimulatePhysics(true);
-	StaticMeshComponent->SetMassOverrideInKg(NAME_None, 99999.f);
-	StaticMeshComponent->SetLinearDamping(0.f);
-	StaticMeshComponent->SetAngularDamping(0.f);
+	Mesh->SetSimulatePhysics(true);
+	Mesh->SetMassOverrideInKg(NAME_None, 99999.f);
+	Mesh->SetLinearDamping(0.f);
+	Mesh->SetAngularDamping(0.f);
 
 }
 
 
 void AInteractiveActorSon::Click_Implementation()
 {
-	StaticMeshComponent->SetRelativeRotation(FRotator(float(rand()), float(rand()), float(rand())));
+	Mesh->SetRelativeRotation(FRotator(float(rand()), float(rand()), float(rand())));
 
 }
 
