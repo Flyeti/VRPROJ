@@ -3069,3 +3069,80 @@ Please remove it first.
 [2021.02.06-03.55.41:051][624]AssetCheck: New page: Asset Save: multiple assets
 [2021.02.06-03.55.41:051][624]LogContentValidation: Display: Validating World /Game/Biome1.Biome1
 [2021.02.06-03.55.41:051][624]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Biome1_BuiltData.Biome1_BuiltData
+[2021.02.06-03.58.32:483][531]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.02.06-03.58.32:483][531]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.02.06-03.58.41:792][  8]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.06-03.58.41:824][  8]LogAssetEditorSubsystem: Opening Asset editor for ParticleSystem /Game/Materials/SnowParticle.SnowParticle
+[2021.02.06-03.58.41:873][  8]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.06-03.58.45:694][202]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.06-03.59.01:100][100]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.06-03.59.05:760][371]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.06-03.59.05:782][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/SnowParticle" FILE="../../../../../INIPSO/Documents/Unreal Projects/VRPROJ/Content/Materials/SnowParticle.uasset" SILENT=true
+[2021.02.06-03.59.05:814][371]LogSavePackage: Moving '../../../../../INIPSO/Documents/Unreal Projects/VRPROJ/Saved/SnowParticle88C4877744FC31339A42B7962AF97604.tmp' to '../../../../../INIPSO/Documents/Unreal Projects/VRPROJ/Content/Materials/SnowParticle.uasset'
+[2021.02.06-03.59.05:829][371]AssetCheck: New page: Asset Save: SnowParticle
+[2021.02.06-03.59.05:829][371]LogContentValidation: Display: Validating ParticleSystem /Game/Materials/SnowParticle.SnowParticle
+[2021.02.06-03.59.06:574][411]LogSlate: Window 'SnowParticle' being destroyed
+[2021.02.06-03.59.06:579][411]LogSlate: Window 'SnowParticle' being destroyed
+[2021.02.06-03.59.06:579][411]LogCascade: Quitting Cascade. FXSystem=0x0000019BEEACD690
+[2021.02.06-03.59.06:596][411]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2021.02.06-03.59.06:596][411]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.06-03.59.07:530][464]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.06-03.59.08:209][504]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.02.06-03.59.08:230][504]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.06-03.59.08:231][504]PIE: New page: PIE session: Biome1 (6 февр. 2021 г., 23:59:08)
+[2021.02.06-03.59.08:231][504]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Biome1
+[2021.02.06-03.59.08:279][504]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047787s)
+[2021.02.06-03.59.08:280][504]LogAIModule: Creating AISystem for world Biome1
+[2021.02.06-03.59.08:280][504]LogPlayLevel: PIE: World Init took: (0.001476s)
+[2021.02.06-03.59.08:280][504]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Biome1.Biome1 to /Game/UEDPIE_0_Biome1.Biome1 (0.049432s)
+[2021.02.06-03.59.08:306][504]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2021.02.06-03.59.08:313][504]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2021.02.06-03.59.08:313][504]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.06-03.59.08:313][504]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.06-03.59.08:314][504]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.06-03.59.08:314][504]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.06-03.59.08:314][504]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.06-03.59.08:314][504]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.06-03.59.08:314][504]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.06-03.59.08:314][504]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.06-03.59.08:314][504]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.06-03.59.08:314][504]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.06-03.59.08:319][504]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.06-03.59.08:319][504]LogAudioMixer: Display: 1: FrontRight
+[2021.02.06-03.59.08:361][504]LogAudioMixer: Display: Using Audio Device Динамики (Conexant SmartAudio HD)
+[2021.02.06-03.59.08:362][504]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.06-03.59.08:362][504]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.06-03.59.08:362][504]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.06-03.59.08:362][504]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.06-03.59.08:362][504]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.06-03.59.08:362][504]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.06-03.59.08:364][504]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.06-03.59.08:364][504]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.06-03.59.08:364][504]LogInit: FAudioDevice initialized.
+[2021.02.06-03.59.08:364][504]LogAudio: Display: Audio Device (ID: 26) registered with world 'Biome1'.
+[2021.02.06-03.59.08:416][504]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.06-03.59.08:419][504]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.06-03.59.08:419][504]LogLoad: Game class is 'VRGameMode_C'
+[2021.02.06-03.59.08:424][504]LogWorld: Bringing World /Game/UEDPIE_0_Biome1.Biome1 up for play (max tick rate 60) at 2021.02.06-13.59.08
+[2021.02.06-03.59.08:424][504]LogWorld: Bringing up level for play took: 0.004486
+[2021.02.06-03.59.08:425][504]LogOnline: OSS: Creating online subsystem instance for: :Context_49
+[2021.02.06-03.59.08:432][504]PIE: Server logged in
+[2021.02.06-03.59.08:435][504]PIE: Play in editor total start time 0,206 seconds.
+[2021.02.06-03.59.41:897][486]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.06-03.59.41:897][486]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Biome1
+[2021.02.06-03.59.41:898][486]LogSlate: Window 'VRPROJ Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.02.06-03.59.41:903][486]LogWorld: UWorld::CleanupWorld for Biome1, bSessionEnded=true, bCleanupResources=true
+[2021.02.06-03.59.41:904][486]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.06-03.59.41:914][486]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.06-03.59.41:931][486]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.06-03.59.41:952][486]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.06-03.59.41:953][486]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.06-03.59.41:990][486]LogUObjectHash: Compacting FUObjectHashTables data took   5.10ms
+[2021.02.06-03.59.42:032][487]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2021.02.06-03.59.49:827][673]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.06-03.59.51:763][776]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.06-03.59.51:791][776]LogAssetEditorSubsystem: Opening Asset editor for ParticleSystem /Game/Materials/SnowParticle.SnowParticle
+[2021.02.06-03.59.51:845][776]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.06-03.59.53:334][840]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.06-04.00.30:504][139]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.02.06-04.00.30:504][139]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
